@@ -4,13 +4,13 @@ Sending Ether to an Ethereum Smart Contract with Web3 and Truffle
 
 This project uses Node Version Manager : `nvm`, `Node`,`Node Package Manager` : `npm`, `Web3`, `Truffle` and `Ganache-CLI`. Go check them out if you don't have them locally installed.
 
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+$ `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
 
-$ nvm install node
+$ `nvm install node`
 
-$ npm install -g web3
+$ `npm install -g web3`
 
-$ npm install -g truffle
+$ `npm install -g truffle`
 
 # Interpretation :
 
@@ -23,7 +23,8 @@ Run `truffle compile` to compile the contracts. After compiling you will have a 
 
 Starting ganache instance with `truffle develop` command to deploy the contract. Once the truffle console is ready run `migrate --reset`. Now you can see the network key has changed in MyContract.json under build and contains deployed address
 
-https://user-images.githubusercontent.com/57283161/134173198-8ef46a3e-67c0-4813-b752-d80eff3f16ff.png
+<img width="1440" alt="Screenshot 2021-09-21 at 5 16 55 PM" src="https://user-images.githubusercontent.com/57283161/134173368-c9dc625a-e555-45a1-83e4-503466e3fee1.png">
+
 
 Finally ran `node index.js` to run the script
 
