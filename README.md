@@ -2,7 +2,7 @@ Sending Ether to an Ethereum Smart Contract with Web3 and Truffle
 
 # Install
 
-This project uses Node Version Manager : `nvm`, `Node`,`Node Package Manager : `npm`, `Web3`, `Truffle` and `Ganache-CLI`. Go check them out if you don't have them locally installed.
+This project uses Node Version Manager : `nvm`, `Node`,`Node Package Manager` : `npm`, `Web3`, `Truffle` and `Ganache-CLI`. Go check them out if you don't have them locally installed.
 
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 $ nvm install node
